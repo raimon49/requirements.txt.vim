@@ -6,11 +6,11 @@
 function! s:isRequirementsFile()
     let l:filename = expand("%:p")
 
-    if l:filename =~# '\v.*requirements\.(txt|in)'
+    if l:filename =~# '\v.*require(ment)?s\.(txt|in)'
         return 1
     endif
 
-    if l:filename =~# '\v.requirements/.*\.(txt|in)'
+    if l:filename =~# '\v.require(ment)?s/.*\.(txt|in)'
         return 1
     endif
 
