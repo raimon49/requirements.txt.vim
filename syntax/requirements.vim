@@ -3,6 +3,10 @@
 " Author:  raimon <raimon49@hotmail.com>
 " License: MIT LICENSE
 
+if exists("b:current_syntax") && b:current_syntax == "requirements"
+    finish
+endif
+
 syn match requirementsComment "#.*$"
 syn match requirementsCommandOption "\v^\[?--?[a-zA-Z\-]*\]?"
 syn match requirementsVersionSpecifiers "\v(\=\=\=?|\<\=?|\>\=?|\~\=|\!\=)"
@@ -12,5 +16,7 @@ hi link requirementsComment Comment
 hi link requirementsCommandOption Special
 hi link requirementsVersionspecifiers Boolean
 hi link requirementsPackageName Identifier
+
+let b:current_syntax = "requirements"
 
 " vim: et sw=4 ts=4 sts=4:
