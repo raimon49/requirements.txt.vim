@@ -7,6 +7,8 @@ if exists("b:current_syntax") && b:current_syntax == "requirements"
     finish
 endif
 
+syn case match
+
 syn match requirementsComment "#.*$"
 syn match requirementsCommandOption "\v^\[?--?[a-zA-Z\-]*\]?"
 syn match requirementsVersionSpecifiers "\v(\=\=\=?|\<\=?|\>\=?|\~\=|\!\=)"
