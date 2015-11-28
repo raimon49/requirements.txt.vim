@@ -1,0 +1,5 @@
+## Environment normalisation:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+.vim-flavor
