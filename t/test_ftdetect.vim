@@ -19,15 +19,15 @@ describe 'enable: requirements#matched_filename()'
 end
 
 describe 'disable: requirements#matched_filename()'
-    it 'to enable file type detection: basic filename'
+    it 'to disable: file type detection: basic filename'
         Expect requirements#matched_filename('requirements.text') to_be_false
     end
 
-    it 'to enable file type detection: pip-tools filename'
+    it 'to disable: file type detection: pip-tools filename'
         Expect requirements#matched_filename('requirements.ini') to_be_false
     end
 
-    it 'to enable file type detection: directory structure'
+    it 'to disable: file type detection: directory structure'
         Expect requirements#matched_filename('require/dev.txt') to_be_false
     end
 end
