@@ -6,15 +6,7 @@
 function! s:isRequirementsFile()
     let l:filename = expand("%:p")
 
-    if l:filename =~# '\v.*require(ment)?s\.(txt|in)'
-        return 1
-    endif
-
-    if l:filename =~# '\v.require(ment)?s/.*\.(txt|in)'
-        return 1
-    endif
-
-    return 0
+    return requirements#matched_filename(l:filename)
 endfunction
 
 au BufNewFile,BufRead *.{txt,in} if s:isRequirementsFile() | set ft=requirements
