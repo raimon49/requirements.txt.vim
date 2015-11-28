@@ -12,11 +12,11 @@ endif
 
 
 function! requirements#matched_filename(filename)
-    if a:filename =~# '\v.*require(ment)?s\.(txt|in)'
+    if a:filename =~# '\v.*require(ment)?s\.(txt|in)$'
         return 1
     endif
 
-    if a:filename =~# '\v.require(ment)?s/.*\.(txt|in)'
+    if a:filename =~# '\vrequire(ment)?s/.*\.(txt|in)$'
         return 1
     endif
 
@@ -24,6 +24,8 @@ function! requirements#matched_filename(filename)
         \ && a:filename =~# g:requirements#detect_filename_pattern
         return 1
     endif
+
+    return 0
 endfunction
 
 let &cpo = s:save_cpo
