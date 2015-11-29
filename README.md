@@ -34,7 +34,7 @@ $ git clone https://github.com/raimon49/requirements.txt.vim.git ~/.vim/bundle/r
 
 ### Manually
 
-Deploy all files under `$VIMRUNTIME`
+Deploy all files under `$VIMRUNTIME`.
 
 File detection
 --------------
@@ -47,6 +47,8 @@ File detection
 * `requires/tests.txt`
 * `requirements.in`
     * Use for [pip-tools](https://github.com/nvie/pip-tools) (a.k.a. Better dependency management tool).
+
+### Customize
 
 If you want to customize it.
 
