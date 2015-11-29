@@ -1,13 +1,13 @@
 #!/usr/bin/env rake
 
-task :ci => [:dump, :test]
+task :ci => [:dump, :currentv, :test]
 
 task :dump do
   sh 'vim --version'
 end
 
 task :currentv do
-  sh 'git ls | xargs grep -n \'Version:\''
+  sh 'git ls-files | xargs grep -n \'Version:\''
 end
 
 task :test do
