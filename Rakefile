@@ -1,6 +1,6 @@
 #!/usr/bin/env rake
 
-task :ci => [:dump, :currentv, :test]
+task :ci => [:dump, :test]
 
 task :dump do
   sh 'vim --version'
