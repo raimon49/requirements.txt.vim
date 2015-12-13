@@ -1,0 +1,25 @@
+# Options
+--allow-external
+--allow-unverified
+
+# Freeze packages
+alabaster==0.7.6
+Babel==2.1.1
+docutils==0.12
+Jinja2==2.8
+MarkupSafe==0.23
+Pygments==2.0.2
+pytz==2015.7
+six==1.10.0
+snowballstemmer==1.2.0
+Sphinx==1.3.3
+sphinx-rtd-theme==0.1.9
+
+# VSC repositories
+[-e] git+git://git.myproject.org/MyProject#egg=MyProject
+[-e] git://git.myproject.org/MyProject.git@v1.0#egg=MyProject
+[-e] hg+https://hg.myproject.org/MyProject#egg=MyProject
+[-e] hg+http://hg.myproject.org/MyProject@da39a3ee5e6b#egg=MyProject
+[-e] svn+http://svn.myproject.org/svn/MyProject/trunk@2019#egg=MyProject
+[-e] bzr+ssh://user@myproject.org/MyProject/trunk#egg=MyProject
+[-e] bzr+https://bzr.myproject.org/MyProject/trunk@2019#egg=MyProject
