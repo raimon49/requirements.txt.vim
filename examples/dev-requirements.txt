@@ -15,12 +15,12 @@ itsdangerous==0.24        # via flask
 jinja2==2.8               # via flask
 markupsafe==0.23          # via jinja2
 pep8==1.6.2               # via autopep8, pytest-pep8
-pip-tools==1.2.0
+pip-tools==1.4.2
 py==1.4.31                # via pytest
 pytest-cache==1.0         # via pytest-pep8
 pytest-pep8==1.0.6
 pytest-pythonpath==0.7
-pytest==2.8.3             # via pytest-cache, pytest-pep8, pytest-pythonpath
+pytest==2.8.5             # via pytest-cache, pytest-pep8, pytest-pythonpath
 six==1.10.0               # via pip-tools
 werkzeug==0.11.2          # via flask
 wheel==0.26.0

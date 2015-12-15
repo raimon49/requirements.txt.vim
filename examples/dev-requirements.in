@@ -1,4 +1,4 @@
--r requirements.in
+-r prod-requirements.in
 
 autopep8
 docutils
