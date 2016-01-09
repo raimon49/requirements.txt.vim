@@ -16,10 +16,10 @@ Sphinx==1.3.3
 sphinx-rtd-theme==0.1.9
 
 # VSC repositories
-[-e] git+git://git.myproject.org/MyProject#egg=MyProject
+[-e] git+git://git.myproject.org/MyProject#egg=MyProject # Git
 [-e] git://git.myproject.org/MyProject.git@v1.0#egg=MyProject
-[-e] hg+https://hg.myproject.org/MyProject#egg=MyProject
+[-e] hg+https://hg.myproject.org/MyProject#egg=MyProject # Mercurial
 [-e] hg+http://hg.myproject.org/MyProject@da39a3ee5e6b#egg=MyProject
-[-e] svn+http://svn.myproject.org/svn/MyProject/trunk@2019#egg=MyProject
-[-e] bzr+ssh://user@myproject.org/MyProject/trunk#egg=MyProject
+[-e] svn+http://svn.myproject.org/svn/MyProject/trunk@2019#egg=MyProject # Subversion
+[-e] bzr+ssh://user@myproject.org/MyProject/trunk#egg=MyProject # Bazaar
 [-e] bzr+https://bzr.myproject.org/MyProject/trunk@2019#egg=MyProject
