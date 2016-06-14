@@ -12,7 +12,7 @@ syn case match
 syn region requirementsComment start="[ \t]*#" end="$"
 syn match requirementsCommandOption "\v^\[?--?[a-zA-Z\-]*\]?"
 syn match requirementsVersionSpecifiers "\v(\=\=\=?|\<\=?|\>\=?|\~\=|\!\=)"
-syn match requirementsPackageName "\v^[a-zA-Z][a-zA-Z\-0-9]*"
+syn match requirementsPackageName "\v^[a-zA-Z][a-zA-Z\-_\.0-9]*"
 syn match requirementsVersionControls "\v(git\+?|hg\+|svn\+|bzr\+)\S+"
 
 hi link requirementsComment Comment
