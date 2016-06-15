@@ -17,7 +17,7 @@ Sphinx==1.3.3
 sphinx-rtd-theme==0.1.9
 zope.interface==4.2.0
 
-# VSC repositories
+# VCS repositories
 [-e] git+git://git.myproject.org/MyProject#egg=MyProject # Git
 [-e] git://git.myproject.org/MyProject.git@v1.0#egg=MyProject
 [-e] hg+https://hg.myproject.org/MyProject#egg=MyProject # Mercurial
