@@ -17,7 +17,7 @@ syn match requirementsVersionControls "\v(git\+?|hg\+|svn\+|bzr\+)\S+"
 
 hi link requirementsComment Comment
 hi link requirementsCommandOption Special
-hi link requirementsVersionspecifiers Boolean
+hi link requirementsVersionSpecifiers Boolean
 hi link requirementsPackageName Identifier
 hi link requirementsVersionControls Identifier
 
