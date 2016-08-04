@@ -1,5 +1,5 @@
 " the Requirements File Format syntax support for Vim
-" Version: 1.1.2
+" Version: 1.2.0
 " Author:  raimon <raimon49@hotmail.com>
 " License: MIT LICENSE
 "
@@ -10,5 +10,6 @@ function! s:isRequirementsFile()
 endfunction
 
 au BufNewFile,BufRead *.{txt,in} if s:isRequirementsFile() | set ft=requirements
+au BufNewFile,BufRead *.pip set ft=requirements
 
 " vim: et sw=4 ts=4 sts=4:
