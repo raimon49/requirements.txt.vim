@@ -42,6 +42,7 @@ File detection
 
 `requirements.txt.vim` detects filename automatically.
 
+* `*.pip`
 * `requirements.txt`
 * `dev-requirements.txt`
 * `requirements/dev.txt`
