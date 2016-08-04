@@ -10,5 +10,6 @@ function! s:isRequirementsFile()
 endfunction
 
 au BufNewFile,BufRead *.{txt,in} if s:isRequirementsFile() | set ft=requirements
+au BufNewFile,BufRead *.pip set ft=requirements
 
 " vim: et sw=4 ts=4 sts=4:
