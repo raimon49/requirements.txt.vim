@@ -42,13 +42,13 @@ File detection
 
 `requirements.txt.vim` detects filename automatically.
 
-* `*.pip`
 * `requirements.txt`
 * `dev-requirements.txt`
 * `requirements/dev.txt`
 * `requires/tests.txt`
 * `requirements.in`
     * Use for [pip-tools](https://github.com/nvie/pip-tools) (a.k.a. Better dependency management tool).
+* `*.pip`
 
 ### Customize
 
