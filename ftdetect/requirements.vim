@@ -3,6 +3,10 @@
 " Author:  raimon <raimon49@hotmail.com>
 " License: MIT LICENSE
 "
+if !exists('g:requirements#detect_filename_pattern')
+    let g:requirements#detect_filename_pattern = ''
+endif
+
 function! s:isRequirementsFile()
     let l:filename = expand("%:p")
 
