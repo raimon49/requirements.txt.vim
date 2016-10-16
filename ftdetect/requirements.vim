@@ -1,12 +1,33 @@
 " the Requirements File Format syntax support for Vim
-" Version: 1.2.0
+" Version: 1.3.0
 " Author:  raimon <raimon49@hotmail.com>
 " License: MIT LICENSE
 "
+if !exists('g:requirements#detect_filename_pattern')
+    let g:requirements#detect_filename_pattern = ''
+endif
+
 function! s:isRequirementsFile()
     let l:filename = expand("%:p")
 
-    return requirements#matched_filename(l:filename)
+    return Requirements_matched_filename(l:filename)
+endfunction
+
+function! Requirements_matched_filename(filename)
+    if a:filename =~# '\v.*require(ment)?s\.(txt|in)$'
+        return 1
+    endif
+
+    if a:filename =~# '\vrequire(ment)?s/.*\.(txt|in)$'
+        return 1
+    endif
+
+    if len(g:requirements#detect_filename_pattern)
+        \ && a:filename =~# g:requirements#detect_filename_pattern
+        return 1
+    endif
+
+    return 0
 endfunction
 
 au BufNewFile,BufRead *.{txt,in} if s:isRequirementsFile() | set ft=requirements
