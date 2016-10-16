@@ -1,7 +1,7 @@
 filetype plugin on
 runtime! plugin/requirements.vim
 
-describe 'enable: requirements_matched_filename()'
+describe 'enable: Requirements_matched_filename()'
     it 'to enable file type detection: basic filename'
         Expect Requirements_matched_filename('requirements.txt') to_be_true
         Expect Requirements_matched_filename('requires.txt') to_be_true
@@ -18,7 +18,7 @@ describe 'enable: requirements_matched_filename()'
     end
 end
 
-describe 'disable: requirements_matched_filename()'
+describe 'disable: Requirements_matched_filename()'
     it 'to disable: file type detection: basic filename'
         Expect Requirements_matched_filename('requirements.text') to_be_false
     end
