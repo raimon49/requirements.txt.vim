@@ -14,7 +14,7 @@ Installation
 
 ### Plugin manager (**recommended**)
 
-e.g.) [dein.vim](https://github.com/Shougo/dein.vim)[NeoBundle](https://github.com/Shougo/neobundle.vim), [Vundle](https://github.com/VundleVim/Vundle.vim), [vim-plug](https://github.com/junegunn/vim-plug) [and more](https://dotfiles.github.io/)
+e.g.) [dein.vim](https://github.com/Shougo/dein.vim), [NeoBundle](https://github.com/Shougo/neobundle.vim), [Vundle](https://github.com/VundleVim/Vundle.vim), [vim-plug](https://github.com/junegunn/vim-plug) [and more](https://dotfiles.github.io/)
 
 ```vim
 " dein.vim
