@@ -49,6 +49,7 @@ File detection
 `requirements.txt.vim` detects filename automatically.
 
 * `requirements.txt`
+* `constraints.txt`
 * `dev-requirements.txt`
 * `requirements/dev.txt`
 * `requires/tests.txt`
