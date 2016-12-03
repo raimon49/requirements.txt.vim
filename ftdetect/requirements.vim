@@ -22,6 +22,10 @@ function! Requirements_matched_filename(filename)
         return 1
     endif
 
+    if a:filename =~# '\v.constraints\.(txt|in)$'
+        return 1
+    endif
+
     if len(g:requirements#detect_filename_pattern)
         \ && a:filename =~# g:requirements#detect_filename_pattern
         return 1
