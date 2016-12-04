@@ -5,6 +5,7 @@ describe 'enable: Requirements_matched_filename()'
     it 'to enable file type detection: basic filename'
         Expect Requirements_matched_filename('requirements.txt') to_be_true
         Expect Requirements_matched_filename('requires.txt') to_be_true
+        Expect Requirements_matched_filename('constraints.txt') to_be_true
     end
 
     it 'to enable file type detection: pip-tools filename'

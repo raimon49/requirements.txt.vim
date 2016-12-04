@@ -22,7 +22,7 @@ function! Requirements_matched_filename(filename)
         return 1
     endif
 
-    if a:filename =~# '\v.constraints\.(txt|in)$'
+    if a:filename =~# '\vconstraints\.(txt|in)$'
         return 1
     endif
 
