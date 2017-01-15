@@ -14,9 +14,15 @@ Installation
 
 ### Plugin manager (**recommended**)
 
-e.g.) [dein.vim](https://github.com/Shougo/dein.vim), [NeoBundle](https://github.com/Shougo/neobundle.vim), [Vundle](https://github.com/VundleVim/Vundle.vim), [vim-plug](https://github.com/junegunn/vim-plug) [and more](https://dotfiles.github.io/)
+e.g.) [vim-plug](https://github.com/junegunn/vim-plug), [dein.vim](https://github.com/Shougo/dein.vim), [NeoBundle](https://github.com/Shougo/neobundle.vim), [Vundle](https://github.com/VundleVim/Vundle.vim) [and more](https://dotfiles.github.io/)
 
 ```vim
+" vim-plug
+Plug 'raimon49/requirements.txt.vim'
+
+" vim-plug with on-demand
+Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
+
 " dein.vim
 call dein#add('raimon49/requirements.txt.vim')
 
@@ -28,9 +34,6 @@ NeoBundle 'raimon49/requirements.txt.vim'
 
 " Vundle
 Plugin 'raimon49/requirements.txt.vim'
-
-" vim-plug
-Plug 'raimon49/requirements.txt.vim'
 ```
 
 ### Pathogen (https://github.com/tpope/vim-pathogen)
