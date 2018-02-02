@@ -14,11 +14,14 @@ task :test do
   sh 'bundle exec vim-flavor test'
 end
 
-task :updatedepends do
+task :dep => [:updatedep, :cleandep]
+
+task :updatedep do
   sh 'bundle update'
+  sh 'bundle install --path vendor/bundle'
 end
 
-task :cleandepends do
+task :cleandep do
   sh 'bundle clean'
 end
 
