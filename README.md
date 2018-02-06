@@ -10,6 +10,17 @@ requirements.txt.vim
 
 ![requirements txt-sc](https://cloud.githubusercontent.com/assets/221802/11379923/5cbb4862-9336-11e5-8963-217b2d7df397.png)
 
+Table of Contents
+-----------------
+
+* [Installation](#installation)
+    * [Plugin manager](#plugin-manager-recommended)
+    * [Pathogen](#pathogen-httpsgithubcomtpopevim-pathogen)
+    * [Manually](#manually)
+* [File detection](#file-detection)
+    * [Customize](#customize)
+* [License](#license)
+
 Installation
 ------------
 
