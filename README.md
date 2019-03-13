@@ -69,7 +69,7 @@ File detection
 * `requirements/dev.txt`
 * `requires/tests.txt`
 * `requirements.in`
-    * Use for [pip-tools](https://github.com/nvie/pip-tools) (a.k.a. Better dependency management tool).
+    * Use for [pip-tools](https://github.com/jazzband/pip-tools) (a.k.a. Better dependency management tool).
 * `*.pip`
 
 ### Customize
