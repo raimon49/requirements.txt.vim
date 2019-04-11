@@ -7,7 +7,7 @@ alabaster==0.7.6
 Babel==2.1.1
 docutils==0.12
 gevent_subprocess==0.1.2
-Jinja2==2.8
+Jinja2>=2.8.1
 MarkupSafe==0.23
 Pygments==2.0.2
 pytz==2015.7
