@@ -32,3 +32,6 @@ foobar[quux]<2,>=3; os_name=='a'
 -e svn+http://svn.myproject.org/svn/MyProject/trunk@2019#egg=MyProject # Subversion
 -e bzr+ssh://user@myproject.org/MyProject/trunk#egg=MyProject # Bazaar
 -e bzr+https://bzr.myproject.org/MyProject/trunk@2019#egg=MyProject
+
+django==2.2
+https://github.com/pallets/click/archive/7.0.zip
