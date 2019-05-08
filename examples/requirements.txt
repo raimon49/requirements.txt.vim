@@ -33,5 +33,5 @@ foobar[quux]<2,>=3; os_name=='a'
 -e bzr+ssh://user@myproject.org/MyProject/trunk#egg=MyProject # Bazaar
 -e bzr+https://bzr.myproject.org/MyProject/trunk@2019#egg=MyProject
 
-django==2.2
+# Project or archive URL.
 https://github.com/pallets/click/archive/7.0.zip
