@@ -1,5 +1,5 @@
 " the Requirements File Format syntax support for Vim
-" Version: 1.5.2
+" Version: 1.5.3
 " Author:  raimon <raimon49@hotmail.com>
 " License: MIT LICENSE
 " The MIT License (MIT)
