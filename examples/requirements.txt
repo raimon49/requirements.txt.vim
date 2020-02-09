@@ -8,7 +8,7 @@ Babel==2.1.1
 docutils==0.12
 gevent_subprocess==0.1.2
 gitpython==3.0.7
-hg-diff==
+hg-diff==1.2.4
 Jinja2>=2.8.1
 MarkupSafe==0.23
 Pygments==2.0.2
