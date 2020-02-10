@@ -4,6 +4,7 @@ requirements.txt.vim
 [![Build Status](https://travis-ci.org/raimon49/requirements.txt.vim.svg?branch=master)](https://travis-ci.org/raimon49/requirements.txt.vim)
 [![GitHub Release](https://img.shields.io/github/release/raimon49/requirements.txt.vim.svg)](https://github.com/raimon49/requirements.txt.vim/releases)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.txt)
+[![GitHub contributors](https://img.shields.io/github/contributors/raimon49/requirements.txt.vim)](https://github.com/raimon49/requirements.txt.vim/graphs/contributors)
 [![Known Vulnerabilities](https://snyk.io/test/github/raimon49/requirements.txt.vim/badge.svg)](https://snyk.io/test/github/raimon49/requirements.txt.vim)
 
 [the Requirements File Format](http://pip.readthedocs.org/en/stable/reference/pip_install/#requirements-file-format) syntax support for Vim.
