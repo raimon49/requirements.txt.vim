@@ -1,7 +1,6 @@
 requirements.txt.vim
 ====================
 
-[![Build Status](https://travis-ci.org/raimon49/requirements.txt.vim.svg?branch=master)](https://travis-ci.org/raimon49/requirements.txt.vim)
 [![VimScript](https://github.com/raimon49/requirements.txt.vim/workflows/VimScript/badge.svg)](https://github.com/raimon49/requirements.txt.vim/actions?query=workflow%3AVimScript)
 [![GitHub Release](https://img.shields.io/github/release/raimon49/requirements.txt.vim.svg)](https://github.com/raimon49/requirements.txt.vim/releases)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.txt)
