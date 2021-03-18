@@ -34,15 +34,16 @@ function! s:isRequirementsFile()
 endfunction
 
 function! Requirements_matched_filename(filename)
-    if a:filename =~# '\v.*require(ment)?s\.(txt|in)$'
+    if fnamemodify(a:filename, ":t") =~# '\vrequire(ment)?s.*\.(txt|in)$'
         return 1
     endif
 
-    if a:filename =~# '\vrequire(ment)?s/.*\.(txt|in)$'
+    if fnamemodify(fnamemodify(a:filename, ":h"), ":t") =~# '\v^require(ment)?s$'
+        \ && fnamemodify(a:filename, ":e") =~# '\v^(txt|in)$'
         return 1
     endif
 
-    if a:filename =~# '\vconstraints\.(txt|in)$'
+    if fnamemodify(a:filename, ":t") =~# '\v^constraints\.(txt|in)$'
         return 1
     endif
 
