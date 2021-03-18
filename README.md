@@ -95,8 +95,8 @@ When the `pip-compile` command is detected, make will behave more intelligently 
 
 You can get support with the following commands:
 
-* `:! make`
-* `:! make -U`
+* `:make`
+* `:make -U`
 
 License
 -------
