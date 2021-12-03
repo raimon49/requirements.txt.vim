@@ -33,4 +33,6 @@ if executable('pip-compile')
         setlocal makeprg=pip-compile\ %
     endif
 endif
+
+setlocal commentstring=#\ %s
 " vim: et sw=4 ts=4 sts=4:
