@@ -7,7 +7,7 @@ requirements.txt.vim
 [![GitHub contributors](https://img.shields.io/github/contributors/raimon49/requirements.txt.vim)](https://github.com/raimon49/requirements.txt.vim/graphs/contributors)
 [![Known Vulnerabilities](https://snyk.io/test/github/raimon49/requirements.txt.vim/badge.svg)](https://snyk.io/test/github/raimon49/requirements.txt.vim)
 
-[the Requirements File Format](http://pip.readthedocs.org/en/stable/reference/pip_install/#requirements-file-format) syntax support for Vim.
+[the Requirements File Format](https://pip.pypa.io/en/stable/reference/requirements-file-format/) syntax support for Vim.
 
 ![requirements txt-sc](https://cloud.githubusercontent.com/assets/221802/11379923/5cbb4862-9336-11e5-8963-217b2d7df397.png)
 
