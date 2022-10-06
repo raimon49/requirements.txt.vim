@@ -39,14 +39,14 @@ syn match requirementsVersionControls "\v(git\+?|hg\+|svn\+|bzr\+).*://.\S+"
 syn match requirementsURLs "\v(\@\s)?(https?|ftp|gopher)://?[^\s/$.?#].\S*"
 syn match requirementsEnvironmentMarkers "\v;\s[^#]+"
 
-hi link requirementsComment Comment
-hi link requirementsCommandOption Special
-hi link requirementsVersionSpecifiers Boolean
-hi link requirementsPackageName Identifier
-hi link requirementsExtras Type
-hi link requirementsVersionControls Underlined
-hi link requirementsURLs Underlined
-hi link requirementsEnvironmentMarkers Macro
+hi def link requirementsComment Comment
+hi def link requirementsCommandOption Special
+hi def link requirementsVersionSpecifiers Boolean
+hi def link requirementsPackageName Identifier
+hi def link requirementsExtras Type
+hi def link requirementsVersionControls Underlined
+hi def link requirementsURLs Underlined
+hi def link requirementsEnvironmentMarkers Macro
 
 let b:current_syntax = "requirements"
 
