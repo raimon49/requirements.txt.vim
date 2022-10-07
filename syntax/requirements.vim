@@ -30,6 +30,7 @@ endif
 
 syn case match
 
+syn match requirementsVersion "\v\d+[a-zA-Z0-9\.\-\*]*"
 syn region requirementsComment start="[ \t]*#" end="$"
 syn match requirementsCommandOption "\v^\[?--?[a-zA-Z\-]*\]?"
 syn match requirementsVersionSpecifiers "\v(\=\=\=?|\<\=?|\>\=?|\~\=|\!\=)"
@@ -39,6 +40,7 @@ syn match requirementsVersionControls "\v(git\+?|hg\+|svn\+|bzr\+).*://.\S+"
 syn match requirementsURLs "\v(\@\s)?(https?|ftp|gopher)://?[^\s/$.?#].\S*"
 syn match requirementsEnvironmentMarkers "\v;\s[^#]+"
 
+hi def link requirementsVersion Number
 hi def link requirementsComment Comment
 hi def link requirementsCommandOption Special
 hi def link requirementsVersionSpecifiers Boolean
