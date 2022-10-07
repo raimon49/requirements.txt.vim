@@ -22,6 +22,7 @@ Table of Contents
     * [Customize](#customize)
     * [Support for make](#support-for-make)
 * [License](#license)
+* [Similar Projects](#similar-projects)
 
 Installation
 ------------
@@ -102,3 +103,9 @@ License
 -------
 
 [MIT License](LICENSE.txt)
+
+Similar Projects
+----------------
+
+* [bat: A cat(1) clone with wings.](https://github.com/sharkdp/bat)
+    * Beautiful syntax highlighting of requirements file is supported
