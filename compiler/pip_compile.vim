@@ -37,7 +37,9 @@ if exists(':CompilerSet') != 2
 endif
 CompilerSet makeprg=pip-compile\ %:S
 CompilerSet errorformat=%ECould\ not\ find\ a\ version\ that\ matches\ %o\ (from\ -r\ %f\ (line\ %l)),
-            \%Z%m
+            \%C%m,
+            \%Z,
+            \%-G%.%#
 let &cpoptions = s:save_cpoptions
 unlet s:save_cpoptions
 " vim: et sw=4 ts=4 sts=4:
