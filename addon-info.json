@@ -1,0 +1,10 @@
+{
+  "name": "requirements",
+  "description": "the Requirements File Format syntax support for Vim",
+  "version": "1.7.1",
+  "author": "raimon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raimon49/requirements.txt.vim"
+  }
+}
