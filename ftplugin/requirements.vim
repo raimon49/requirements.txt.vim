@@ -23,6 +23,20 @@
 " LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 " OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 " SOFTWARE.
-compiler pip_compile
+if exists("b:did_ftplugin")
+  finish
+endif
+let b:did_ftplugin = 1
+
+let s:save_cpoptions = &cpoptions
+set cpoptions&vim
+
+let b:undo_ftplugin = "setl iskeyword< commentstring<"
+" pip options contain "-"
+setlocal iskeyword+=-
 setlocal commentstring=#\ %s
+compiler pip_compile
+
+let &cpoptions = s:save_cpoptions
+unlet s:save_cpoptions
 " vim: et sw=4 ts=4 sts=4:
