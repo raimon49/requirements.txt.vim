@@ -12,6 +12,8 @@ endfunction
 " https://github.com/neoclide/coc.nvim/wiki/Create-custom-source
 "
 " Completion pip option and PYPI package names.
+" Note: completion PYPI package names need install pip-cache from PYPI,
+" and run `pip-cache update` first to generate cache.
 function! coc#source#requirements#complete(opt, cb) abort
     call a:cb(g:requirements#items)
 endfunction
