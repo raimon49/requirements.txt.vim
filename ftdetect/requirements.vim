@@ -55,7 +55,10 @@ function! Requirements_matched_filename(filename)
     return 0
 endfunction
 
-au BufNewFile,BufRead *.{txt,in} if s:isRequirementsFile() | set ft=requirements | endif
-au BufNewFile,BufRead *.pip set ft=requirements
+augroup requirements
+    autocmd!
+    au BufNewFile,BufRead *.{txt,in} if s:isRequirementsFile() | set ft=requirements | endif
+    au BufNewFile,BufRead *.pip set ft=requirements
+augroup END
 
 " vim: et sw=4 ts=4 sts=4:
