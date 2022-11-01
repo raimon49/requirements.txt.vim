@@ -1,0 +1,6 @@
+---
+repos:
+  - repo: https://github.com/google/vimdoc
+    rev: 73bc1efaacb55a59d5206d0ac50e5432ea0192c1
+    hooks:
+      - id: vimdoc
