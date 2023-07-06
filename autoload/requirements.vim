@@ -1,8 +1,9 @@
 ""
-" Refer $VIMRUNTIME/autoload/dist/script.vim in vim
-" or $VIMRUNTIME/scripts.vim in neovim. When a file's shebang is like
-" "pip install -r" or "pip-compile", set its filetype to |requirements|.
-function! requirements#scripts#shabang() abort
+" Refer https://github.com/vim/vim/blob/75e27d78f5370e7d2e0898326d9b080937e7b090/runtime/scripts.vim#L33-L71
+"
+" When a file's shebang is "pip install -r" or "pip-compile",
+" set its filetype to |requirements|.
+function! requirements#shebang() abort
     let s:line1 = getline(1)
 
     if s:line1 =~# "^#!"

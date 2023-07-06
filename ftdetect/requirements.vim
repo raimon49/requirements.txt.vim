@@ -59,7 +59,7 @@ augroup requirements
     autocmd!
     au BufNewFile,BufRead *.{txt,in} if s:isRequirementsFile() | set ft=requirements | endif
     au BufNewFile,BufRead *.pip set ft=requirements
-    au BufNewFile,BufRead * if !did_filetype() | call requirements#scripts#shabang() | endif
+    au BufNewFile,BufRead * if !did_filetype() | call requirements#shebang() | endif
 augroup END
 
 " vim: et sw=4 ts=4 sts=4:
