@@ -7,7 +7,7 @@ alabaster==0.7.6
 Babel>=2.9.1
 docutils==0.12
 gevent_subprocess==0.1.2
-gitpython==3.0.7
+gitpython==3.1.32
 hg-diff==1.2.4
 Jinja2>=2.8.1
 MarkupSafe==0.23
