@@ -11,6 +11,11 @@ requirements.txt.vim
 
 ![requirements txt-sc](https://cloud.githubusercontent.com/assets/221802/11379923/5cbb4862-9336-11e5-8963-217b2d7df397.png)
 
+**Note:** Depending on the version of Vim/Neovim you are using, the syntax highlighting feature of this plugin may be bundled.
+
+* [vim/vim/commit/f9f5424](https://github.com/vim/vim/commit/f9f5424d3e75bbdb35aa48fa6f9241d9479b35e8)
+* [vim-patch:9.1.0326: filetype: some requirements files are not recognized by zeertzjq · neovim/neovim](https://github.com/neovim/neovim/pull/28360)
+
 Table of Contents
 -----------------
 
